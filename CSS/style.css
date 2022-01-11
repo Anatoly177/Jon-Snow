@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 64px;
+    margin-bottom: 59px;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 914px;
+    margin: auto;
+}
+
+.avatar {
+    background-color: #1A142D;
+    padding: 18px;
+    color: #fff;
+    margin-right: 67px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.avatar div {
+    margin-top: 48px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.avatar div p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+span {
+    color: #FF3232;
+    font-weight: bold;
+}
+
+.hero-description p:first-child {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero-description {
+    margin-bottom: 49px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 38px 0  0 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.avatar ul {
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.avatar ul li {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.avatar ul li:last-child {
+    margin-right: 0;
+}
+
+.avatar ul li:hover img {
+    transform: translateY(-5px);
+}
+
+.mb-87 {
+    margin-bottom: 87px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+
+.gallery ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+.gallery ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+*/
+
+.gallery ul li:last-child {
+    margin-right: 0;
+}
+
+
+.container-space-between {
+    justify-content: flex-start;
+}
+
+.gallery ul li p {
+    margin: 0;
+    background: #1A142D;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+}
+
+/*.gallery {
+    position: relative;
+    right: 80px;
+    top: 80px;
+}
+*/
+
+.gallery ul li {
+    position: relative;
+}
+
+.gallery ul li:hover p {
+display: flex;
+}
